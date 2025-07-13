@@ -1,5 +1,3 @@
-length = 10
-width = 5
-
-area = length * width
-print("The area of the rectangle is:",area)
+hours = 2
+hours_to_seconds =hours *3600
+print("2 hour(s) is",hours_to_seconds,"seconds.")
