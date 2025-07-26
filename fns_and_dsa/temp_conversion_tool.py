@@ -11,7 +11,10 @@ def convert_to_celsius(fahrenheit):
 
 
 if __name__ == "__main__":
-    temprature = int(input("Enter the temperature to convert: "))
+    try:
+        temprature = int(input("Enter the temperature to convert: "))
+    except:
+        print("Invalid temperature. Please enter a numeric value.")
 
     temprature_type = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
     match temprature_type:
