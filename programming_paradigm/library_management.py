@@ -20,6 +20,11 @@ class Library:
             if book.title == title:
                 book._is_checked_out = True
 
+    def return_book(self ,title):
+        for book in self._books:
+            if book.title == title:
+                book._is_checked_out = False
+
     def list_available_books(self):
         for book in self._books:
             if book._is_checked_out == False:
