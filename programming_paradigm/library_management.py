@@ -30,4 +30,7 @@ class Library:
             if book._is_checked_out == False:
                 print(f"{book.title} by {book.author}")
         
-"""return_book(self)"""
+"""return_book(self)
+    self._books = []
+    
+"""
